@@ -6,7 +6,7 @@ export function res(masuk) {
     masuk[2] !== "-" ||
     masuk[5] !== "-"
   ) {
-    console.log("Format Tidak Valid");
+    console.log("Format Tanggal Salah");
   }
 
   let n = "";
