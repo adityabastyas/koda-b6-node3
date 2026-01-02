@@ -6,7 +6,7 @@ export function res(masuk) {
     masuk[2] !== "-" ||
     masuk[5] !== "-"
   ) {
-    console.log("format tidak valid");
+    console.log("Format Tidak Valid");
   }
 
   let n = "";
@@ -17,5 +17,5 @@ export function res(masuk) {
       n = n + masuk[i];
     }
   }
-  console.log(n);
+  console.log("Tanggal Masuk Menjadi :", n);
 }
