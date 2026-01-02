@@ -8,7 +8,7 @@ const rl = createInterface({
 });
 
 const tanggal = async () => {
-  const answer = await rl.question("masukan format tanggal DD-MM-YYYY :");
+  const answer = await rl.question("Masukan Format Tanggal DD-MM-YYYY :");
 
   res(answer);
 
